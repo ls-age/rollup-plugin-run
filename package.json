@@ -29,5 +29,13 @@
     "devserver"
   ],
   "author": "Lukas Hechenberger <npm@ls-age.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ls-age/rollup-plugin-run.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ls-age/rollup-plugin-run/issues"
+  },
+  "homepage": "https://github.com/ls-age/rollup-plugin-run#readme"
 }
