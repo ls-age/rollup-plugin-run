@@ -1,4 +1,4 @@
-# rollup-plugin-run
+# @ls-age/rollup-plugin-run
 
 > Run a bundled node module while watching for changes.
 
@@ -8,7 +8,7 @@
 ## Installation
 
 ```
-npm i --save-dev rollup-plugin-run
+npm i --save-dev @ls-age/rollup-plugin-run
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm i --save-dev rollup-plugin-run
 Include the following in the rollup config:
 
 ```javascript
-import run from 'rollup-plugin-run';
+import run from '@ls-age/rollup-plugin-run';
 
 export default {
   ...
