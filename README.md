@@ -1,5 +1,7 @@
 # rollup-plugin-run
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ls-age/rollup-plugin-run.svg)](https://greenkeeper.io/)
+
 > Run a bundled node module while watching for changes.
 
 ## Installation
