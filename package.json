@@ -1,6 +1,6 @@
 {
   "name": "@ls-age/rollup-plugin-run",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run a bundled node module while watching for changes",
   "main": "out/index.js",
   "dependencies": {
