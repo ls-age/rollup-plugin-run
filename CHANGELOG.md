@@ -1,3 +1,14 @@
+<a name="0.2.0"></a>
+# 0.2.0 (2018-09-22)
+
+
+### Features
+
+* Add hooks ([c4db630](https://github.com/ls-age/rollup-plugin-run/commits/c4db630))
+
+
+
+
 <a name="0.1.1"></a>
 ## 0.1.1 (2018-09-22)
 
