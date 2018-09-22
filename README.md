@@ -42,6 +42,11 @@ The plugin decides what command / module to run based on some options:
 
 - `run` The file to watch. If no *args* are passed *run* is passed to *command*. Defaults to the first file in the *output* configuration with *format* set to `'cjs'`.
 
+## Hooks
+
+- `onStart` Called when the process has been started, with the process passed.
+- `onStop` Called when the process has been stopped.
+
 **Examples:**
 
 Assuming *output* is set to `{ file: './out/server.js', format: 'cjs' }` in the rollup configuration.

@@ -3,6 +3,7 @@ import prefix from 'prefix-stream';
 import execa from 'execa';
 
 const watching = Boolean(process.env.ROLLUP_WATCH);
+const noop = () => {};
 
 export default function runPlugin({
   logPrefix = colors.magenta('run'),
@@ -10,6 +11,8 @@ export default function runPlugin({
   args,
   run,
   options = {},
+  onStart = noop,
+  onStop = noop,
 } = {}) {
   if (!watching) { return { name: 'run' }; }
 
@@ -33,6 +36,8 @@ export default function runPlugin({
 
       runningProcess.kill();
       runningProcess = null;
+
+      onStop();
     }
   }
 
@@ -62,10 +67,13 @@ export default function runPlugin({
             runningProcess = null;
           })
           .catch(err => {
+            // console.log('CATCH');
             if (runningProcess === current) { // Prevent log on restart
               log('Error:', err);
             }
           });
+
+        onStart(runningProcess);
       }
     },
   };
