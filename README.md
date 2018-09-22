@@ -2,7 +2,8 @@
 
 > Run a bundled node module while watching for changes.
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ls-age/rollup-plugin-run.svg)](https://greenkeeper.io/)
+[![CircleCI](https://circleci.com/gh/ls-age/rollup-plugin-run.svg?style=svg)](https://circleci.com/gh/ls-age/workflows/rollup-plugin-run/)
+[![Greenkeeper](https://badges.greenkeeper.io/ls-age/rollup-plugin-run.svg)](https://greenkeeper.io/)
 
 ## Installation
 
