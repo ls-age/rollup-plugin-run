@@ -1,4 +1,3 @@
-import exitHook from 'exit-hook';
 import colors from 'chalk';
 import prefix from 'prefix-stream';
 import execa from 'execa';
@@ -36,8 +35,6 @@ export default function runPlugin({
       runningProcess = null;
     }
   }
-
-  exitHook(stop);
 
   return {
     name: 'run',
