@@ -2,6 +2,8 @@
 
 > Run a bundled node module while watching for changes.
 
+[![CircleCI](https://circleci.com/gh/ls-age/rollup-plugin-run.svg?style=svg)](https://circleci.com/gh/ls-age/workflows/rollup-plugin-run/)
+
 ## Installation
 
 ```
