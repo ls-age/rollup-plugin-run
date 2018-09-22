@@ -1,0 +1,33 @@
+{
+  "name": "rollup-plugin-run",
+  "version": "0.0.0",
+  "description": "Run a bundled node module while watching for changes",
+  "main": "out/index.js",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "execa": "^1.0.0",
+    "exit-hook": "^2.0.0",
+    "prefix-stream": "^1.0.1"
+  },
+  "devDependencies": {
+    "@ls-age/eslint-config": "^0.8.0",
+    "builtin-modules": "^3.0.0",
+    "eslint": "^5.6.0",
+    "rollup": "^0.66.2"
+  },
+  "scripts": {
+    "compile": "rollup -c",
+    "lint": "eslint rollup.config.js src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "run",
+    "module",
+    "server",
+    "devserver"
+  ],
+  "author": "Lukas Hechenberger <npm@ls-age.com>",
+  "license": "MIT"
+}
